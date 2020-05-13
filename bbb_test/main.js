@@ -17,10 +17,10 @@ options.setPreference('intl.accept_languages', 'en-US, en');
 const room = process.env.ROOM;
 const join_user = process.env.JOIN_USER;
 const host = process.env.HOST;
-const no_headless = process.env.NO_HEADLESS;
+const head = process.env.HEAD;
 const listenOnly = true;
 
-if(!no_headless) {
+if(!head) {
   options.addArguments('--headless');
 }
 
