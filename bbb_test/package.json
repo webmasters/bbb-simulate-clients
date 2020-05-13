@@ -1,0 +1,12 @@
+{
+  "name": "bbb_test",
+  "version": "1.0.0",
+  "description": "DESCRIPTION",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "devDependencies": {
+    "selenium-webdriver": ">4.0.0"
+  }
+}
